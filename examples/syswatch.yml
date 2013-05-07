@@ -1,0 +1,17 @@
+# SysWatch config file
+
+:label: Monitored Site
+:mountpoints:
+ - /
+ - /home
+:treshold: 10 #percent
+:delay: 3600 #seconds
+:mail:
+ :to: 'you@example.com'
+ :from: 'you@example.com'
+ :via: :smtp
+ :via_options: 
+  :address: 'localhost'
+  :port:  '1025'
+  :authentication: :plain
+  :domain: "localhost.localdomain"

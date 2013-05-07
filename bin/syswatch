@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'syswatch'
+
+SysWatch::CLI.new(ARGV, ENV)
